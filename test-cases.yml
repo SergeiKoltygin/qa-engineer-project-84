@@ -48,10 +48,29 @@
   prerequisites: |
     Открыта главная страница сайта: https://hexlet-products-store.vercel.app
   test-data: |
-
+    Товар Iphone 9
   steps:
-
+    Открыть товар Iphone 9
   expected-result: |
+    Открывается карточка товара с полной инофрмацией о нем 
+
+    - summary: |
+    Проверка добавления товара в корзину 
+  requirement: |
+    При добавлении товара в корзину, в ней должней появится добавленный товар
+  prerequisites: |
+    Открыта главная страница сайта: https://hexlet-products-store.vercel.app
+  test-data: |
+    Товар Iphone 9
+  steps:
+    - Добавить товар под названием Iphone 9 в корзину
+    - Открыть корзину 
+  expected-result: |
+    В корзине имеется добавленный товар  
+
+
+
+    
 
 
     
