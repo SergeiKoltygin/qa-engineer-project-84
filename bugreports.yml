@@ -38,5 +38,8 @@
     Заказ успешно оформлен 
   actual-result: |
     В DevTools в разделе Network выдает ошибку 500 Internal Server Error 
+    Нет формы для оформления заказа
+
+    
 
     
