@@ -48,9 +48,9 @@
   prerequisites: |
     Открыта главная страница сайта: https://hexlet-products-store.vercel.app
   test-data: |
-    Товар Iphone 9
+    Товар Iphone X
   steps:
-    Открыть товар Iphone 9
+    Открыть товар Iphone X
   expected-result: |
     Открывается карточка товара с полной инофрмацией о нем 
 
