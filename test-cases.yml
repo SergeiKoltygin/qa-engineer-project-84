@@ -6,9 +6,9 @@
   prerequisites: |
     Открыта главная страница сайта: https://hexlet-products-store.vercel.app
   test-data: |
-    Ключево слово "Iphone"
+    Ключево слово "Apple"
   steps:
-    - Вводим ключево слово "Iphone" в поиск
+    - Вводим ключево слово "Apple" в поиск
   expected-result: |
      У пользователя появляются товары, у которых имеется ключевое слово в названии
 
@@ -21,7 +21,7 @@
   test-data: |
     Категория smartphones 
   steps:
-    Выбрать категорию "smartphones" в выпадающем спике
+    Выбрать категорию "smartphones" в выпадающем спиcке
   expected-result: |
     У пользователя появляются товары выбранной категории 
 
