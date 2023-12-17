@@ -32,7 +32,7 @@
   prerequisites: |  
     Открыта главная страница сайта: https://hexlet-products-store.vercel.app
   test-data: |
-    Категория: smartphones, Производитель: Apple, В наличии, цена до 800
+    Категория: smartphones, Производитель: Apple, В наличии не отмечать, цена до 800
   steps:
     - В выпадающем категории выбираем smartphones
     - В спике производителя выбираем Apple
