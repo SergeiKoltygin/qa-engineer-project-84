@@ -285,6 +285,48 @@
     Сайт отображается аддаптивно к размеру экрана
 
 
+- summary: |
+    Проверка переключения страниц каталога товаров вперед
+  requirement: |
+    На странице при переключении на другую страницу, выводятся другие товары      
+  prerequisites: |
+    Открыта главная страница сайта: https://hexlet-products-store.vercel.app
+  test-data: |
+  steps:
+    - Открыть главную страницу сайта: https://hexlet-products-store.vercel.app
+    - нажать на Next 
+  expected-result: |
+     На странице выводятся следующие товары 
+
+
+- summary: |
+    Проверка переключения страниц каталога товаров назад
+  requirement: |
+    На странице выводятся предыдущие товары       
+  prerequisites: |
+    Открыта главная страница сайта: https://hexlet-products-store.vercel.app
+  test-data: |
+  steps:
+    - Открыть главную страницу сайта: https://hexlet-products-store.vercel.app
+    - нажать на Previos 
+  expected-result: |
+     На странице выводятся предыдущие товары
+
+
+- summary: |
+    Проверка переключения страниц каталога товаров назад
+  requirement: |
+    На странице выводятся предыдущие товары       
+  prerequisites: |
+    Открыта главная страница сайта: https://hexlet-products-store.vercel.app
+  test-data: |
+  steps:
+    - Открыть главную страницу сайта: https://hexlet-products-store.vercel.app
+    - нажать на Previos 
+  expected-result: |
+     На странице выводятся предыдущие товары
+
+
     
 
 
